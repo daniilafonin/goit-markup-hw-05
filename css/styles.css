@@ -754,10 +754,14 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
   transition: fill 250ms ease, background-color 250ms ease;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .policy-checkbox:checked + .policy-label .checkbox-custom {
-  background-color: #4d5ae5;
-  fill: #fff;
+  background-color: #404bbf;
+  fill: #f4f4fd;
+  border: none;
 }
 .policy-link {
   line-height: 1.33333;
