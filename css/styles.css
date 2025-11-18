@@ -543,7 +543,7 @@ img {
   font-size: 16px;
   gap: 16px;
   padding: 0;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
@@ -592,7 +592,7 @@ img {
 }
 
 .modal {
-  position: relative;
+  position: absolute;
   padding: 72px 24px 24px 24px;
   top: 50%;
   left: 50%;
@@ -661,7 +661,7 @@ img {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
@@ -681,7 +681,7 @@ img {
   border-color: #4d5ae5;
 }
 .form-field-wrap {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 .field-wrap {
   position: relative;
