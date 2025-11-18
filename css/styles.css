@@ -730,6 +730,9 @@ img {
 .comment-textarea:focus {
   border-color: #4d5ae5;
 }
+.comment-wrap {
+  margin-bottom: 16px;
+}
 
 .policy-wrap {
   margin-bottom: 24px;
