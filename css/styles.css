@@ -737,6 +737,7 @@ img {
 .policy-wrap {
   margin-bottom: 24px;
 }
+
 .policy-label {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -772,4 +773,5 @@ img {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-/* #endregion */
+
+/* #endgiregion */
